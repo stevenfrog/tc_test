@@ -1,0 +1,272 @@
+.headerBackgroundInner {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--main);
+  max-width: 100%;
+}
+.headerBackgroundInnerWrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aboutTraject {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 99px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.aboutContactLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.parent {
+  align-self: stretch;
+  height: 18px;
+  font-family: var(--font-open-sans);
+  font-weight: 600;
+  font-size: var(--font-size-smi);
+  color: var(--line-2);
+  z-index: 1;
+}
+.navigationLinksInner {
+  width: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.contactUs {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 81px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.aboutContactLinks1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.userIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.signIn {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 49px;
+  white-space: nowrap;
+}
+.signInWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.navigationLinks,
+.topNavigation,
+.userParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.userParent {
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  z-index: 1;
+}
+.navigationLinks,
+.topNavigation {
+  max-width: 100%;
+}
+.navigationLinks {
+  margin: 0;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--line-2);
+  font-family: var(--font-open-sans);
+}
+.topNavigation {
+  width: 731px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.headerDivider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--light-gray);
+  box-sizing: border-box;
+  opacity: 0.5;
+  z-index: 1;
+}
+.trajectdataLogo1Icon {
+  align-self: stretch;
+  height: 48px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logoContainer {
+  width: 269.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.apiCardTitles {
+  align-self: stretch;
+  height: 19px;
+  font-family: var(--font-open-sans);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  color: var(--line-2);
+  width: auto;
+}
+.apiCategoryCards {
+  width: 136px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.group {
+  align-self: stretch;
+  height: 19px;
+  font-family: var(--font-open-sans);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  color: var(--line-2);
+  width: auto;
+}
+.apiCategoryCards1 {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.enterprise {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.apiCategoryCards2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-3xs) 0 0;
+}
+.pricing {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 47px;
+  white-space: nowrap;
+}
+.apiCategoryCards3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+}
+.findApi {
+  height: 42px;
+  flex: 1;
+}
+.apiCategories {
+  width: 629px;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+}
+.apiCategories,
+.content,
+.headerNonLogin,
+.logoContainerParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.logoContainerParent {
+  width: 1068px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.content,
+.headerNonLogin {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-6xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.headerNonLogin {
+  background-color: var(--main);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0;
+  position: sticky;
+  gap: var(--gap-xs);
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--line-2);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 750px) {
+  .apiCategories {
+    gap: var(--gap-mini);
+  }
+}

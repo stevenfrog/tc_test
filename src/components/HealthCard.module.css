@@ -1,0 +1,211 @@
+.healthStatus1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.healthStatus {
+  align-items: center;
+}
+.healthInnerCardContainer,
+.healthInnerCardContent,
+.healthStatus {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.healthInnerCardContent {
+  width: 244px;
+  align-items: flex-start;
+}
+.healthInnerCardContainer {
+  flex: 1;
+  align-items: center;
+  padding: var(--padding-8xs-5) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cardDivider,
+.healthInnerCard {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.healthInnerCard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  max-width: 100%;
+}
+.cardDivider {
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--line-2);
+}
+.product {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 52px;
+}
+.info96 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.dataMetricCardTitles {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-34xl) 0 0;
+  gap: var(--gap-7xs);
+}
+.lastModified {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 83px;
+}
+.info91 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.dataMetricCardTitles1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 0;
+  gap: var(--gap-7xs);
+}
+.activeUsers {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 74px;
+}
+.info94 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.dataMetricCardTitles2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 0;
+  gap: var(--gap-7xs);
+}
+.batchRecordsProcessed {
+  position: relative;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.info95 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.batchRecordsProcessedParent,
+.dataMetricCardTitles3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.batchRecordsProcessedParent {
+  flex-direction: row;
+  gap: var(--gap-7xs);
+}
+.dataMetricCardTitles3 {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.realTimeRecordsProcessed {
+  position: relative;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.info951 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.realTimeRecordsProcessedParent {
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap-7xs);
+}
+.dataMetricCardTitles4,
+.dataMetricCards,
+.realTimeRecordsProcessedParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dataMetricCardTitles4 {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.dataMetricCards {
+  flex-direction: row;
+  gap: var(--gap-30xl-2);
+}
+.dataMetricCards,
+.dataMetrics,
+.healthCard {
+  display: flex;
+  max-width: 100%;
+}
+.dataMetrics {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-sm);
+  box-sizing: border-box;
+  font-size: var(--font-size-2xs);
+  color: var(--font-2);
+}
+.healthCard {
+  width: 1003px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs-5);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--font);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 1050px) {
+  .dataMetricCards {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .dataMetricCards {
+    gap: var(--gap-6xl);
+  }
+}
